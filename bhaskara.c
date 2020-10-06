@@ -3,12 +3,13 @@
 #include <math.h>
 
 int main() {
-    float a, b, c = 0;
+	
+	float a, b, c = 0;
 	float delta, x1, x2;
 
 	printf("Informe os valores A, B e C em ordem!\n");
 
-    scanf("%f %f %f", &a,&b,&c);
+	scanf("%f %f %f", &a,&b,&c);
 
 	delta = (b * b) - (4 * a * c);
 
@@ -17,5 +18,5 @@ int main() {
 
 	printf("Delta = %f, x1 = %f, x2 = %f", delta, x1, x2);
 
-    return 0;
+	return 0;
 }
